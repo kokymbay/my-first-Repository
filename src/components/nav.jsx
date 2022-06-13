@@ -1,20 +1,20 @@
-import React from 'react'; 
-
+import React from 'react';
+import './nav.css'
 
 const Nav = () => {
-    return (
-      <nav className='nav'>
+  return (
+    <nav className='nav'>
       <div>
-        <a>profile </a>
+        <h1>HELLO BRO!</h1>
       </div>
       <div>
-        <a>Massages </a>
+        <img src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" alt="" />
       </div>
       <div>
-        <a>Music </a>
+        <p>Тут должна быть информация</p>
       </div>
     </nav>
-    )
+  )
 }
 
 export default Nav; 

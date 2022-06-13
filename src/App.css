@@ -3,21 +3,21 @@
 
 .app-wrapper {
 
-  margin: 0 100px;
+  margin: 0 250px;
   display: grid;
   grid-template-areas:
     "h h"
-    "n c";
-  grid-template-rows: 60px 1fr;
-  grid-template-columns: 2fr 10fr;
-  grid-gap: 10px;
-  font-weight: 700;
+    "n n"
+    "c c";
+  grid-template-rows: 50px 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 14px;
   font-family: 'Montserrat', sans-serif;
   
 }
 
 .header {
-  display: flex;
+  text-align: right;
   grid-area: h;
   background-color: blue;
 
@@ -26,9 +26,9 @@
   width: 50px;
 }
 .header h1 {
-  margin-left: 200px;
-  font-size: 20px; 
+  font-size: 18px; 
   color: white;
+  margin-right: 20px;
   
 }
 .header h1 a {
@@ -36,21 +36,4 @@
 }
 .header h1 a:hover {
   color: rgba(241, 241, 241, 0.801);
-}
-
-.nav {
-  grid-area: n;
-  background-color: violet;
-  padding: 20px;
-}
-
-.content {
-  grid-area: c;
-  background-color: brown;
-  padding: 20px;
-}
-
-.content img {
-  margin: 0 auto;
-  width: 700px;
 }

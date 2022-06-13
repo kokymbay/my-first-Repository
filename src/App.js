@@ -11,10 +11,10 @@ import Content from './components/content';
 function App() {
   return (
     <div className='app-wrapper'>
-    <Header/> 
-    <Nav/>
-    <Content/>
-     </div>
+      <Header />
+      <Nav />
+      <Content />
+    </div>
   );
 }
 
