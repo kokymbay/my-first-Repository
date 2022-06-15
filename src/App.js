@@ -6,6 +6,8 @@ import { Container } from '@mui/system';
 import Header from './components/header';
 import Nav from './components/nav';
 import Content from './components/content';
+import Education from './components/education';
+import Skills from './components/skills';
 
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <Header />
       <Nav />
       <Content />
+      <Education/>
+      <Skills/>
     </div>
   );
 }
