@@ -1,0 +1,26 @@
+.footer {
+    grid-area: e;
+    margin-top: 80px;
+    padding: 20px;
+}
+.footer a {
+    color: blueviolet;
+    text-decoration: none;
+
+}
+.footer a:hover {
+    color: orange;
+}
+.icon1 li {
+    list-style-type: none; 
+    list-style-image: url(C:\Users\user\Desktop\miras\secret\project\icons8-whatsapp-24.png);
+}
+.icon2 li {
+    list-style-type: none;
+    list-style-image: url(https://img.icons8.com/material-outlined/24/undefined/new-post.png);
+}
+.icon3 li {
+    list-style-type: none;
+    list-style-image: url(https://img.icons8.com/material-outlined/24/undefined/instagram-new--v1.png);
+}
+

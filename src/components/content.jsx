@@ -6,7 +6,7 @@ const Content = () => {
     <div className='content'>
       <div>
         <div>
-          <img src="https://png.pngtree.com/png-vector/20191028/ourlarge/pngtree-game-control-glyph-icon-vector-png-image_1904105.jpg" alt="" />
+          <img src="https://icon-library.com/images/hobby-video-game-controller-joystick-buttons-512.png" alt="" />
         </div>
         <h1>Hobby</h1>
         <p>Тут должна быть информация</p>

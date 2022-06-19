@@ -6,7 +6,7 @@ const Skills = () => {
     <div className='content2'>
       <div>
         <div>
-          <img src="https://icon-library.com/images/icon-skills/icon-skills-11.jpg" alt="" />
+          <img src="https://icon-library.com/images/icon-for-skills/icon-for-skills-12.jpg"/>
         </div>
         <h1>Skills</h1>
         <p>Тут должна быть информация</p>

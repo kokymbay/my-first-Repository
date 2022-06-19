@@ -1,37 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
 
-
+body {
+  background-color: wheat;
+}
 .app-wrapper {
   margin: 0 250px;
   display: grid;
   grid-template-areas:
-    "h h h "
-    "n n n "
-    "c d f ";
-  grid-template-rows: auto;
-  grid-template-columns: auto ;
+    "h h h"
+    "n n n"
+    "c d f"
+    "e e e";
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 5x;
   font-family: 'Montserrat', sans-serif;
 }
 
 .header {
-  text-align: right;
+  padding: 15px;
   grid-area: h;
-  background-color: rgb(7, 7, 112);
-
+  background-color: rgb(0, 0, 0);
+  
 }
 .header img {
-  width: 50px;
+  
+
 }
 .header h1 {
   font-size: 18px; 
   color: white;
   margin-right: 20px;
+  text-align: right;
   
 }
 .header h1 a {
   padding: 5px;
+  color: white;
+  text-decoration: none;
 }
 .header h1 a:hover {
-  color: rgba(241, 241, 241, 0.801);
+  color: rgb(131, 131, 131);
 }
+
+
+

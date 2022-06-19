@@ -8,16 +8,19 @@ import Nav from './components/nav';
 import Content from './components/content';
 import Education from './components/education';
 import Skills from './components/skills';
+import Footer from './components/footer';
 
 
 function App() {
   return (
     <div className='app-wrapper'>
-      <Header />
-      <Nav />
+      
+      <Header />  
+      <Nav /> 
       <Content />
       <Education/>
       <Skills/>
+      <Footer/>
     </div>
   );
 }

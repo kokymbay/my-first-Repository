@@ -1,9 +1,13 @@
 .content {
     grid-area: c;
-    padding: 20px;
-    box-shadow: 20px 20px 200px gray;
     border-radius: 20px;
-    margin-top: 80px;
+    margin-top: 80px;;
+    padding: 10px;
+    
+    margin-left: 20px;
+}
+.content:hover{
+    box-shadow: 20px 10px 200px gray;
 }
 .content p {
     text-align: center;
@@ -16,6 +20,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 
@@ -24,10 +29,14 @@
 
 .content2 {
     grid-area: d;
-    box-shadow: 20px 20px 200px gray;
     border-radius: 20px;
     margin-top: 80px;
     margin-left: 20px;
+    padding: 10px;
+    
+}
+.content2:hover{
+    box-shadow: 20px 10px 200px gray;
 }
 .content2 h1{
     text-align: center;
@@ -40,6 +49,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 
@@ -47,10 +57,14 @@
 
 .content3 {
     grid-area: f;
-    box-shadow: 20px 20px 200px gray;
     border-radius: 20px;
     margin-top: 80px;
     margin-left: 20px;
+    padding: 10px;
+    
+}
+.content3:hover{
+    box-shadow: 20px 10px 200px gray;
 }
 .content3 h1 {
     text-align: center;
