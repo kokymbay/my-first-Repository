@@ -2,25 +2,47 @@
     grid-area: e;
     margin-top: 80px;
     padding: 20px;
+    background-color: wheat;
 }
 .footer a {
     color: blueviolet;
     text-decoration: none;
-
 }
 .footer a:hover {
     color: orange;
 }
-.icon1 li {
-    list-style-type: none; 
-    list-style-image: url(C:\Users\user\Desktop\miras\secret\project\icons8-whatsapp-24.png);
+.footer li {
+    margin-left: 100px;
+    margin-top: px;
 }
-.icon2 li {
+.Icons {
     list-style-type: none;
-    list-style-image: url(https://img.icons8.com/material-outlined/24/undefined/new-post.png);
 }
-.icon3 li {
-    list-style-type: none;
-    list-style-image: url(https://img.icons8.com/material-outlined/24/undefined/instagram-new--v1.png);
+.Icons_WhatsApp li {
+    
+    list-style-image: url(./../img/icons8-whatsapp-24.png);
+}
+.Icons_Mail li {
+    
+    list-style-image: url(./../img/mail.png);
+}
+.Icons_Instagram li {
+    
+    list-style-image: url(./../img/instagram-new--v1.png);
 }
 
+@media screen and (max-width: 425px) {
+    .footer {
+        font-size: 22px;
+    }
+    .footer li {
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .footer {
+        margin-top: 10%;
+    }
+    
+}

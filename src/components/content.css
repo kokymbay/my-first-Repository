@@ -1,80 +1,163 @@
-.content {
+.Hobby {
     grid-area: c;
     border-radius: 20px;
     margin-top: 80px;;
     padding: 10px;
-    
+    transition: all .43s;
     margin-left: 20px;
+   
 }
-.content:hover{
-    box-shadow: 20px 10px 200px gray;
+.Hobby:hover{
+    box-shadow: 20px 10px 35px gray;
 }
-.content p {
+.Hobby p {
     text-align: center;
 }
-.content h1 {
+.Hobby h1 {
     text-align: center;
 }
-.content img {
+.Hobby img {
     width: 150px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+}
+
+
+.Hobby ul li a {
+   font-size: 19px;
+   text-decoration: none;
+   color: black;
+   transition: all 0.3ss;
+   
+}
+.icon_football{
+    list-style-type: none;
+    list-style-image: url(./../img/icons8-soccer-25.png);
+}
+.icon_football:hover {
+    font-weight: 700;
+}
+.icon_music {
+    list-style-image: url(./../img/icons8-musical-notes-25.png);
+}
+.icon_music:hover{
+    font-weight: 700;
+}
+.icon_games {
+    list-style-image: url(./../img/icons8-game-controller-25.png);
+}
+.icon_games:hover {
+    font-weight: 700;
 }
 
 
 
 
 
-.content2 {
+.Skills {
     grid-area: d;
     border-radius: 20px;
     margin-top: 80px;
-    margin-left: 20px;
+    margin-left: 20px; 
     padding: 10px;
+    transition: all .43s;
     
 }
-.content2:hover{
-    box-shadow: 20px 10px 200px gray;
+.Skills:hover{
+    box-shadow: 20px 10px 35px gray;
+    
+    /* padding: 35px; */
 }
-.content2 h1{
+.Skills h1{
     text-align: center;
 }
-.content2 p {
+.Skills p {
     text-align: center;
 }
-.content2 img {
+.Skills img {
     width: 150px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     
 }
+.Skills ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s;
+}
+.icon_html {
+    list-style-image: url(./../img/icons8-html-5-25.png);
+}
+.icon_css {
+    list-style-image: url(./../img/icons8-css3-25.png);
+}
+.icon_html:hover {
+    font-weight: 700;
+}
+.icon_css:hover {
+    font-weight: 700;
+}
 
 
 
 
-.content3 {
+.Education {
     grid-area: f;
     border-radius: 20px;
     margin-top: 80px;
-    margin-left: 20px;
+    margin-left: 20px ;
     padding: 10px;
-    
+    transition: all .43s;
 }
-.content3:hover{
-    box-shadow: 20px 10px 200px gray;
+
+.Education:hover {
+    box-shadow: 20px 10px 35px gray;
+    /* padding: 35px; */
 }
-.content3 h1 {
+.Education h1 {
     text-align: center;
 }
-.content3 p {
+.Education p {
     text-align: center;
+
 }
-.content3 img {
+.Education img {
     width: 150px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.Education ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s;
+}
+.icon_univercity {
+    
+    list-style-image: url(./../img/icons8-university-25.png);
+}
+
+.icon_univercity:hover{
+    font-weight: 700;
+}
+.icon_profession {
+    list-style-image: url(./../img/icons8-marine-radio-25.png);
+}
+.icon_profession:hover {
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 425px) {
+    .Hobby {
+        margin-left: 0 ;
+    }
+    .Skills {
+        margin-left: 0;
+    }
+    .Education {
+        margin-left: 0;
+    }
 }

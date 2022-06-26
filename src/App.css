@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
 
-body {
-  background-color: wheat;
-}
+
 .app-wrapper {
-  margin: 0 250px;
   display: grid;
   grid-template-areas:
     "h h h"
@@ -12,35 +9,116 @@ body {
     "c d f"
     "e e e";
   grid-template-rows: auto 1fr auto;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 5x;
   font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  
 }
 
 .header {
-  padding: 15px;
+  /* padding: 15px; */
   grid-area: h;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(54, 15, 87);
   
 }
-.header img {
-  
 
-}
-.header h1 {
-  font-size: 18px; 
-  color: white;
-  margin-right: 20px;
-  text-align: right;
-  
-}
 .header h1 a {
+  font-size: 20px;
+  color: white;
   padding: 5px;
   color: white;
   text-decoration: none;
+  margin: 20px;
 }
-.header h1 a:hover {
-  color: rgb(131, 131, 131);
+.header h1 {
+  text-align: right;
+}
+
+.header a:hover {
+  color: rgb(221, 0, 203);
+  text-shadow: 2px 2px 2px #000;
+}
+
+.header_body {
+  display: grid;
+  grid-template-areas: "title links";
+}
+.title {
+  display: grid;
+  grid-area: title;
+  margin-left: 100px;
+  margin-right: auto;
+
+}
+.title h1  a {
+  color: orange;
+  font-size: 29px;
+  text-shadow: 2px 2px 2px black;
+  transition: all 0.7s;
+}
+.title h1 a:hover {
+  color: blueviolet;
+  
+}
+
+.links {
+  display: grid;
+  grid-area: links;
+  margin-right: 100px;
+}
+
+
+
+/* ADAPTIVE */
+
+
+
+@media screen and (max-width: 425px) {
+  .app-wrapper {
+    grid-template-areas:
+      "h "
+      "n "
+      "c "
+      "d"
+      "f"
+      "e ";
+    
+  }
+ 
+
+}
+
+
+@media screen and (max-width: 768px) {
+ .links {
+  display: none;
+ }
+  .title {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .app-wrapper {
+    font-size: 28px;
+  }
+  .title h1 a {
+    font-size: 64px;
+  }
+
+ 
+}
+@media screen and (min-width:1024px) { 
+  .app-wrapper {
+    font-size: 18px;
+  }
+  .nav {
+    font-size: 18px;
+  }
+  
+}
+
+@media screen and (min-width: 1440px) {
+  .app-wrapper {
+    font-size: 18px;
+  }
 }
 
 

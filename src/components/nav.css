@@ -1,13 +1,16 @@
 .nav {
     grid-area: n;
-    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
     border-radius: 30px;
     margin-top: 80px;
     color: black;
- 
+    transition: all 0.2s;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .nav:hover {
-    box-shadow: 20px 10px 200px gray;
+    box-shadow: 20px 10px 35px gray;
 }
 
 .nav img {
@@ -24,4 +27,17 @@
 
 .nav p {
     text-align: center;
+}
+.image {
+    width: 100px;
+    background-image: url(./../img/icons8-person-100.jpg);
+}
+
+/* ADAPTIVE */
+@media screen and (max-width: 425px) {
+    .nav {
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

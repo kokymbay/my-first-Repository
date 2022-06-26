@@ -1,17 +1,20 @@
 import React from 'react';
 import './nav.css'
 
+
 const Nav = () => {
   return (
     <nav className='nav'>
       <div>
-        <h1>HELLO BRO!</h1>
+        <h1>Hello, I'm Miras</h1>
+      </div>
+      <div >
+        <img src="" alt="" />
       </div>
       <div>
-        <img src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" alt="" />
-      </div>
-      <div>
-        <p>Тут должна быть информация</p>
+        <p>I enjoy developing websites and applications.</p>
+        <p>I'm starting to learn JS</p>
+        <p> I also want to fully master Python.</p>
       </div>
     </nav>
   )
